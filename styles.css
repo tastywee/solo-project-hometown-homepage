@@ -1,0 +1,101 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/** HERO SECTION */
+.hero {
+    background-image: url("https://s3-cdn.hotellinksolutions.com/hls/data/4710/website/general/bn/mobile_slide-05.jpg");
+    background-size: cover;
+    width: auto;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero:hover {
+    background-image: url("https://media3.giphy.com/media/JL9Bch15YlyT1wKh7A/giphy.gif?cid=ecf05e47gvxtkex5cvlmf156nssz7tjxpj07gg0fa6vsne40&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+}
+
+h1 {
+    border-radius: 10px;
+    background: #1D3557;
+    padding: 5px 10px;
+    color: whitesmoke;
+    text-shadow: 0px 0px 1px black;
+    font-family: 'Chelsea Market', cursive;
+    margin-bottom: 10px;
+}
+
+h2 {
+    width: 80%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: #457B9D;
+    color: whitesmoke;
+    text-shadow: 0px 0px 1px black;
+}
+
+/* ACTIVITIES SECTION */
+
+.to-do-title {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.to-do-list {
+    background: #F1FAEE;
+}
+.activities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.activity-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.activity-box {
+    margin: 10px;
+}
+
+/* GUIDE SECTION */
+.guide {
+    background: #A8DADC;
+    border-bottom: 10px solid #1D3557;
+    border-radius: 20px;
+    margin: 50px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guide-img {
+    width: 140px;
+    border-radius: 20px;
+    margin: 0px 10px;
+}
+
+.guide-details {
+    margin: 0px 10px;
+}
